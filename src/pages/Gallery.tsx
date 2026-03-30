@@ -71,12 +71,6 @@ const galleryImages = [
   },
   {
     id: 11,
-    src: "https://images.unsplash.com/photo-1529543544277-750e0d8a6286?q=80&w=2070&auto=format&fit=crop",
-    category: "Catering",
-    title: "Sweet Delights",
-  },
-  {
-    id: 12,
     src: "https://images.unsplash.com/photo-1464047736614-af63643285bf?q=80&w=2074&auto=format&fit=crop",
     category: "Venue",
     title: "Evening Ambiance",
@@ -205,6 +199,7 @@ const Gallery = () => {
                       className="w-full h-full object-cover"
                       whileHover={{ scale: 1.15 }}
                       transition={{ duration: 0.6 }}
+                      loading="lazy"
                     />
                     
                     {/* Hover Overlay */}

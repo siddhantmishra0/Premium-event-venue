@@ -26,7 +26,6 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { useToast } from "@/hooks/use-toast";
-import { supabase } from "@/integrations/supabase/client";
 
 const inquirySchema = z.object({
   name: z.string().trim().min(2, "Name must be at least 2 characters").max(100, "Name must be less than 100 characters"),
@@ -54,7 +53,7 @@ const eventTypes = [
 const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
-  
+
   const form = useForm<InquiryFormData>({
     resolver: zodResolver(inquirySchema),
     defaultValues: {
@@ -71,17 +70,9 @@ const Contact = () => {
   const onSubmit = async (data: InquiryFormData) => {
     setIsSubmitting(true);
     try {
-      const { error } = await supabase.from("inquiries").insert({
-        name: data.name,
-        phone: data.phone,
-        email: data.email,
-        event_type: data.event_type,
-        event_date: data.event_date || null,
-        guest_count: data.guest_count || null,
-        message: data.message || null,
-      });
-
-      if (error) throw error;
+      // Mock API call since Supabase is removed
+      await new Promise((resolve) => setTimeout(resolve, 1000));
+      console.log("Form submitted with data:", data);
 
       toast({
         title: "Inquiry Submitted!",
@@ -147,7 +138,7 @@ const Contact = () => {
                   We'd Love to <span className="text-primary">Hear from You</span>
                 </h2>
                 <p className="text-muted-foreground leading-relaxed mb-8">
-                  Ready to book your dream venue? Have questions about our services? 
+                  Ready to book your dream venue? Have questions about our services?
                   We're here to help you plan the perfect celebration. Reach out to us today!
                 </p>
 
@@ -159,8 +150,8 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold text-foreground mb-1">Visit Us</h3>
                       <p className="text-muted-foreground">
-                        Plot No. 32, 3, The Hindu Friends Society Marg,<br />
-                        Jogeshwari East, Mumbai - 400060
+                        [ADDRESS]<br />
+                        
                       </p>
                     </div>
                   </div>
@@ -172,10 +163,10 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold text-foreground mb-1">Call Us</h3>
                       <a
-                        href="tel:+919869384849"
+                        href="tel:+91XXXXX XXXXX"
                         className="text-muted-foreground hover:text-primary transition-colors"
                       >
-                        +91 98693 84849
+                        +91 XXXXX XXXXX
                       </a>
                     </div>
                   </div>

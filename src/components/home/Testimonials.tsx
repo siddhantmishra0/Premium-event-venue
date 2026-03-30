@@ -28,7 +28,7 @@ const testimonials = [
     event: "Wedding Ceremony",
     rating: 5,
     review:
-      "The attention to detail was incredible. Shree Bhagawati Catering served the most delicious food, and the decoration team transformed the hall into a fairy tale setting. Thank you for an unforgettable day!",
+      "The attention to detail was incredible. XXXXXXX Catering served the most delicious food, and the decoration team transformed the hall into a fairy tale setting. Thank you for an unforgettable day!",
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&auto=format&fit=crop",
   },
   {

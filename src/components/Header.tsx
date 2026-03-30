@@ -36,11 +36,10 @@ export const Header = () => {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`relative font-medium text-sm tracking-wide transition-colors hover:text-primary ${
-                  location.pathname === link.path
+                className={`relative font-medium text-sm tracking-wide transition-colors hover:text-primary ${location.pathname === link.path
                     ? "text-primary"
                     : "text-foreground"
-                }`}
+                  }`}
               >
                 {link.name}
                 {location.pathname === link.path && (
@@ -56,11 +55,11 @@ export const Header = () => {
           {/* CTA Button */}
           <div className="hidden md:flex items-center gap-4">
             <a
-              href="tel:+919869384849"
+              href="tel:+91 XXXXX XXXXX"
               className="flex items-center gap-2 text-sm font-medium text-foreground hover:text-primary transition-colors"
             >
               <Phone className="w-4 h-4" />
-              +91 98693 84849
+              +91 XXXXX XXXXX
             </a>
             <Button asChild className="bg-primary hover:bg-primary/90 text-primary-foreground">
               <Link to="/contact">Book Now</Link>
@@ -93,22 +92,21 @@ export const Header = () => {
                   key={link.path}
                   to={link.path}
                   onClick={() => setIsOpen(false)}
-                  className={`font-medium py-2 transition-colors ${
-                    location.pathname === link.path
+                  className={`font-medium py-2 transition-colors ${location.pathname === link.path
                       ? "text-primary"
                       : "text-foreground"
-                  }`}
+                    }`}
                 >
                   {link.name}
                 </Link>
               ))}
               <div className="pt-4 border-t border-border">
                 <a
-                  href="tel:+919869384849"
+                  href="tel:+91 XXXXX XXXXX"
                   className="flex items-center gap-2 text-sm font-medium text-foreground mb-4"
                 >
                   <Phone className="w-4 h-4" />
-                  +91 98693 84849
+                  +91 XXXXX XXXXX
                 </a>
                 <Button asChild className="w-full bg-primary text-primary-foreground">
                   <Link to="/contact" onClick={() => setIsOpen(false)}>

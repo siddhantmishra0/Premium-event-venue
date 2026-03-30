@@ -191,6 +191,7 @@ const Services = () => {
                   src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=2098&auto=format&fit=crop"
                   alt="Grand Banquet Hall"
                   className="w-full h-[500px] object-cover rounded-2xl shadow-elegant"
+                  loading="lazy"
                 />
               </motion.div>
             </div>
@@ -212,6 +213,7 @@ const Services = () => {
                   src="https://images.unsplash.com/photo-1555244162-803834f70033?q=80&w=2070&auto=format&fit=crop"
                   alt="Catering Service"
                   className="w-full h-[500px] object-cover rounded-2xl shadow-elegant"
+                  loading="lazy"
                 />
               </motion.div>
 
@@ -229,7 +231,7 @@ const Services = () => {
                   </span>
                 </div>
                 <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-6">
-                  Shree Bhagawati <span className="text-primary">Catering</span>
+                  XXXXXXXX <span className="text-primary">Catering</span>
                 </h2>
                 <p className="text-muted-foreground leading-relaxed mb-8">
                   Delight your guests with our exquisite culinary offerings. Our experienced chefs craft authentic flavors that celebrate the rich traditions of Indian cuisine while catering to modern palates.

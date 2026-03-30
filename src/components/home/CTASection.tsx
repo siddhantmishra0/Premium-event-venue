@@ -70,16 +70,16 @@ export const CTASection = () => {
           transition={{ duration: 0.6 }}
         >
           {/* Animated Heading */}
-          <motion.h2 
+          <motion.h2
             className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
             Ready to Create Your <br />
-            <motion.span 
+            <motion.span
               className="text-primary inline-block"
-              animate={{ 
+              animate={{
                 textShadow: [
                   "0 0 20px hsla(43, 65%, 53%, 0.3)",
                   "0 0 40px hsla(43, 65%, 53%, 0.5)",
@@ -91,27 +91,27 @@ export const CTASection = () => {
               Dream Celebration?
             </motion.span>
           </motion.h2>
-          
-          <motion.p 
+
+          <motion.p
             className="text-xl text-white/80 max-w-2xl mx-auto mb-10"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
           >
-            Let us help you plan the perfect event. Contact us today to check availability 
+            Let us help you plan the perfect event. Contact us today to check availability
             and discuss your requirements.
           </motion.p>
 
-          <motion.div 
+          <motion.div
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.4 }}
           >
-            <motion.div 
-              whileHover={{ scale: 1.05 }} 
+            <motion.div
+              whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
               <Button
@@ -127,33 +127,23 @@ export const CTASection = () => {
                 </Link>
               </Button>
             </motion.div>
-            <motion.div 
-              whileHover={{ scale: 1.05 }} 
+            <motion.div
+              whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
               <Button
                 asChild
                 variant="outline"
                 size="lg"
-                className="border-white/50 text-white hover:bg-white/10 text-lg px-8 py-6 backdrop-blur-sm"
+                className="border-white/50 hover:bg-white/10 text-lg px-8 py-6 backdrop-blur-sm"
               >
-                <a href="tel:+919869384849">
+                <a href="tel:+91XXXXX XXXXX">
                   <Phone className="mr-2 w-5 h-5" />
                   Call Now
                 </a>
               </Button>
             </motion.div>
           </motion.div>
-
-          <motion.p 
-            className="text-white/60 text-sm mt-8"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.6 }}
-          >
-            Or visit us at: Plot No. 32, Hindu Friends Society Marg, Jogeshwari East, Mumbai
-          </motion.p>
         </motion.div>
       </div>
     </section>

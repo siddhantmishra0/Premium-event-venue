@@ -93,25 +93,25 @@ export const Footer = () => {
               <li className="flex gap-3">
                 <MapPin className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                 <span className="text-secondary-foreground/80">
-                  Plot No. 32, 3, The Hindu Friends Society Marg, Jogeshwari East, Mumbai - 400060
+                  [ADDRESS]
                 </span>
               </li>
               <li className="flex gap-3">
                 <Phone className="w-5 h-5 text-primary flex-shrink-0" />
                 <a
-                  href="tel:+919869384849"
+                  href="tel:+91XXXXX XXXXX"
                   className="text-secondary-foreground/80 hover:text-primary transition-colors"
                 >
-                  +91 98693 84849
+                  +91 XXXXX XXXXX
                 </a>
               </li>
               <li className="flex gap-3">
                 <Mail className="w-5 h-5 text-primary flex-shrink-0" />
                 <a
-                  href="mailto:info@mangalyamangalkaryalay.com"
+                  href="mailto:[EMAIL_ADDRESS]"
                   className="text-secondary-foreground/80 hover:text-primary transition-colors"
                 >
-                  info@mangalyamangalkaryalay.com
+                  [EMAIL_ADDRESS]
                 </a>
               </li>
               <li className="flex gap-3">
@@ -133,7 +133,7 @@ export const Footer = () => {
               © {new Date().getFullYear()} Mangalya Mangal Karyalay. All rights reserved.
             </p>
             <p className="text-secondary-foreground/60 text-sm">
-              Shree Bhagawati Catering Service
+              XXXXXXXX  Catering Service
             </p>
           </div>
         </div>

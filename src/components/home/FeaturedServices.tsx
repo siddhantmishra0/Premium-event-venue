@@ -15,7 +15,7 @@ const services = [
   },
   {
     icon: Utensils,
-    title: "Shree Bhagawati Catering",
+    title: "XXXXXXXX Catering",
     description:
       "Savor authentic flavors with our in-house catering service offering vegetarian & non-vegetarian cuisines, from traditional Maharashtrian to North Indian delicacies.",
     image: "https://images.unsplash.com/photo-1555244162-803834f70033?q=80&w=2070&auto=format&fit=crop",

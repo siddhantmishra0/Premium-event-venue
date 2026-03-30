@@ -79,13 +79,13 @@ const About = () => {
                 </h2>
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
-                    <strong className="text-foreground">मांगल्य मंगल कार्यालय (Mangalya Mangal Karyalay)</strong> has been the heart of celebrations in Jogeshwari, Mumbai for over 20 years. What started as a dream to create a space where families could celebrate their most precious moments has grown into one of the area's most trusted wedding venues.
+                    <strong className="text-foreground">मांगल्य मंगल कार्यालय (Mangalya Mangal Karyalay)</strong> has been the heart of celebrations in Mumbai for over 20 years. What started as a dream to create a space where families could celebrate their most precious moments has grown into one of the area's most trusted wedding venues.
                   </p>
                   <p>
                     Our journey began with a simple philosophy: treat every celebration as if it were our own. This approach, combined with our commitment to excellence, has helped us host over 1,000 weddings, engagements, and special events.
                   </p>
                   <p>
-                    Alongside our venue, <strong className="text-foreground">Shree Bhagawati Catering Service</strong> offers authentic multi-cuisine menus that have become legendary among our guests. From traditional Maharashtrian thalis to elaborate North Indian spreads, our culinary team creates memorable dining experiences.
+                    Alongside our venue, <strong className="text-foreground">XXXXXXX Catering Service</strong> offers authentic multi-cuisine menus that have become legendary among our guests. From traditional Maharashtrian thalis to elaborate North Indian spreads, our culinary team creates memorable dining experiences.
                   </p>
                 </div>
               </motion.div>
@@ -102,6 +102,7 @@ const About = () => {
                     src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?q=80&w=2069&auto=format&fit=crop"
                     alt="Mangalya Venue Interior"
                     className="w-full h-[500px] object-cover"
+                    loading="lazy"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-secondary/50 to-transparent" />
                 </div>

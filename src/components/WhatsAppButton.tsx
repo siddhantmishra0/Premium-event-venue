@@ -2,7 +2,7 @@ import { MessageCircle } from "lucide-react";
 import { motion } from "framer-motion";
 
 export const WhatsAppButton = () => {
-  const phoneNumber = "919869384849";
+  const phoneNumber = "911212121212";
   const message = encodeURIComponent(
     "Hello! I'm interested in booking Mangalya Mangal Karyalay for my event. Please share more details."
   );
