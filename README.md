@@ -1,6 +1,8 @@
-# Mangalya Mangal Karyalay & Catering Services
+# 🌟 Event Venue Web Application - Frontend Showcase Project
 
-Welcome to the official website repository for **Mangalya Mangal Karyalay** - Mumbai's premier wedding and events venue. This project is a modern, high-performance web application designed to showcase the venue's features, catering services, gallery, and provide a seamless booking inquiry experience for customers.
+Welcome to the repository for this **Premium Event Venue & Catering Website**, a modern, high-performance web application built as a personal portfolio project. This project simulates a real-world wedding and events venue (named "Mangalya Mangal Karyalay" in the UI) to demonstrate advanced frontend development skills, including fluid animations, responsive design, and performance optimization.
+
+While this is a showcase project and not an official business website, it features everything you would expect from a top-tier establishment: an immersive gallery, beautiful parallax effects, dynamic layout structures, and seamless booking inquiry forms.
 
 ## 🚀 Technologies Used
 
